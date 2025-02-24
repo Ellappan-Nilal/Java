@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Solution {
     public int romanToInt(String s) {
         int ans = 0, num = 0;
@@ -32,5 +34,13 @@ class Solution {
         }
         return ans;
 
+    }
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a roamn numeral: ");
+        String romannumeral=sc.nextLine();
+        Solution sol=new Solution();
+        int integerValue=sol.romanToInt(romannumeral);
+        System.out.println("The integer value of "+romannumeral+" is :"+integerValue);
     }
 }
