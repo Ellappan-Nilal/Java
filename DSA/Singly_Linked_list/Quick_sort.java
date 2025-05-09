@@ -36,7 +36,7 @@ public class Quick_sort {
             System.out.print(num+" ");
         }
         quicksort(arr,0,arr.length-1);
-        System.out.println("swaping");
+        System.out.println("Before swaping");
         System.out.println("After swaping");
         for(int num:arr){
             System.out.print(num+" ");
