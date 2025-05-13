@@ -1,4 +1,7 @@
-import solve_problems.Java.Node;
+
+import solve_problems.DSA.Singly_Linked_list.LinkedList;
+
+/*One method
 import java.util.*;
 class Node{
     int data;
@@ -32,6 +35,18 @@ public class Singly_node_creation {
             System.out.println(temp.data);
             temp=temp.next;
         }
+    }
+            
+}
+*/
+//import java.util.LinkedList;//innuild method package
+public class Singly_node_creation{
+    public static void main(String[] args){
+        LinkedList nums=new LinkedList();
+        nums.add(5);
+        nums.add(9);
+        nums.add(6);
+        nums.printValues();
     }
             
 }

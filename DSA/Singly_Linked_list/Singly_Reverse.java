@@ -1,4 +1,5 @@
 //Using data swap
+import solve_problems.DSA.Singly_Linked_list.Node;
 import solve_problems.Java.Node;
 import java.util.*;
 import java.io.*;
