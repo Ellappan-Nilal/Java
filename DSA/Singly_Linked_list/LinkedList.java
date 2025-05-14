@@ -34,4 +34,19 @@ public class LinkedList {
         }
         System.out.println();
     }
+
+    public void addFirst(int data) {
+        Node newNode=new Node(data);
+        newNode.next=head;
+        head=newNode;
+    }
+    public void delete(int data){
+        Node current=head;
+        while(current.next!=null&&current.next.data!=data){
+            current=current.next;
+        }
+        if(current.next!=null){
+            current.next=current.next.next;
+        }
+    }
 }
