@@ -9,6 +9,16 @@ public class Queue_implement {
         Queue queue = new Queue();
         queue.enqueue(10);
         queue.enqueue(20);
-        queue.show();
+        queue.enqueue(30);
+        queue.enqueue(40);
+        
+        System.out.println(queue.dequeue());
+        //queue.show();
+         queue.enqueue(60);
+       
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        
+        
     }
 }
