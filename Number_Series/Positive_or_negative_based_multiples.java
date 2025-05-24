@@ -1,4 +1,4 @@
-package solve_problems.String;
+package solve_problems.Number_Series;
 import java.util.Scanner;
 public class Positive_or_negative_based_multiples {
     public static void main(String[] args){
