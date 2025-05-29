@@ -17,10 +17,7 @@ public class IsomorphicString {
             char charS = s.charAt(i);
             char charT = t.charAt(i);
 
-            if (hm.containsKey(charS)) {
-                if (hm.get(charS) != charT) {
-                    return false;
-                }
+            
             } else {
                 if (hm.containsValue(charT)) {
                     return false;
