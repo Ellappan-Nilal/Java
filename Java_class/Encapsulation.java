@@ -56,7 +56,10 @@ public class Encapsulation {
         ac.setName("Nilaltech");
         ac.setEmail("nilaltechhub@gmail.com");
         ac.setAmount(12340);
-       
+        System.out.println(ac.getAcc_no());
+        System.out.println(ac.getName());
+        System.out.println(ac.getEmail());
+        System.out.println(ac.getAmount());
 
     }
 }
