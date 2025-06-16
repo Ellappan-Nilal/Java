@@ -8,9 +8,10 @@ package solve_problems.Java_class;
  *
  * @author Nilal
  */
-class Account{
+class Account {
+
     private int acc_no;
-    private String name,email;
+    private String name, email;
     private float amount;
 
     public int getAcc_no() {
@@ -44,13 +45,21 @@ class Account{
     public void setAmount(float amount) {
         this.amount = amount;
     }
-    
-    
+
 }
-public class Encapsulation { 
-public static void main(String[] args){
-    Account ac=new Account();
-    ac.setAcc_no(12345);
-    System.out.println(ac.getAcc_no());
-}
+
+public class Encapsulation {
+
+    public static void main(String[] args) {
+        Account ac = new Account();
+        ac.setAcc_no(12345);
+        ac.setName("Nilaltech");
+        ac.setEmail("nilaltechhub@gmail.com");
+        ac.setAmount(12340);
+        System.out.println(ac.getAcc_no());
+        System.out.println(ac.getName());
+        System.out.println(ac.getEmail());
+        System.out.println(ac.getAmount());
+
+    }
 }
