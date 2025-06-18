@@ -10,7 +10,9 @@ package solve_problems.Java_class;
  */
 class Account {
 
-    
+    private int acc_no;
+    private String name, email;
+    private float amount;
 
     public int getAcc_no() {
         return acc_no;
