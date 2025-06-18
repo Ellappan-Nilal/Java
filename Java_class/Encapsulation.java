@@ -14,13 +14,7 @@ class Account {
     private String name, email;
     private float amount;
 
-    public int getAcc_no() {
-        return acc_no;
-    }
-
-    public void setAcc_no(int acc_no) {
-        this.acc_no = acc_no;
-    }
+    
 
     public String getName() {
         return name;
