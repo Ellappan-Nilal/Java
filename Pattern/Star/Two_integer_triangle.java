@@ -1,4 +1,4 @@
-package solve_problems.Pattern;
+package solve_problems.StarPattern;
 import java.util.Scanner;
 public class Two_integer_triangle {
     public static void main(String[] args){
