@@ -9,7 +9,7 @@ public class Previous_and_NextCharacter {
         }else if(ch=='z'){
             System.out.print(--ch + "a");
         }else{
-            System.out.println((char)(ch-1)+" "+(char)(ch+1));
+           
         }
     }
 }
