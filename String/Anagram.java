@@ -19,7 +19,8 @@ public class Anagram {
     public static void main(String[] args) {
         String str1 = "listen";
         String str2 = "silent";
-       
+        String str3 = "hello";
+        String str4 = "world";
 
         System.out.println("Are \"" + str1 + "\" and \"" + str2 + "\" anagrams? " + areAnagramsSimple(str1, str2)); // true
         System.out.println("Are \"" + str3 + "\" and \"" + str4 + "\" anagrams? " + areAnagramsSimple(str3, str4)); // false
