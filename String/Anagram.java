@@ -17,8 +17,7 @@ public class Anagram {
     }
 
     public static void main(String[] args) {
-        String str1 = "listen";
-        String str2 = "silent";
+        
         String str3 = "hello";
         String str4 = "world";
 
