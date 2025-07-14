@@ -13,7 +13,7 @@ public class Anagram {
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
 
-        
+        return Arrays.equals(charArray1, charArray2);
     }
 
     public static void main(String[] args) {
