@@ -18,6 +18,9 @@ public class StudentServlet extends HttpServlet {
        String std_name=request.getParameter("sname");
        String std_mail=request.getParameter("smail");
        String str_mob=request.getParameter("smob");
+       System.out.println(std_name);
+       System.out.println(std_mail);
+       System.out.println(str_mob);
     }
 
     
