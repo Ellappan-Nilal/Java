@@ -15,9 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 public class StudentServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-       request.getParameter("sname");
-       request.getParameter("smail");
-       request.getParameter("smob");
+       String std_name=request.getParameter("sname");
+       String std_mail=request.getParameter("smail");
+       String str_mob=request.getParameter("smob");
     }
 
     
