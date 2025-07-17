@@ -24,7 +24,7 @@
                 </tr>
                  <tr>
                     <td>Mobile</td>
-                    <td><input type="smob" type="number"></td>
+                    <td><input name="smob" type="number"></td>
                 </tr>
                  <tr>
                     <td></td>
