@@ -8,11 +8,7 @@ public class count_the_words {
         String s=sc.nextLine();
         System.out.println(s); 
         int cnt=0;
-        for(int i=0;i<s.length();i++){
-            if(s.charAt(i)==' '){
-                cnt++;
-            }
-        }
+       
         System.out.println(cnt+1);
         
     }
