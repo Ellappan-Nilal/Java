@@ -21,11 +21,7 @@ public static void main(String[] args){
             for(int j=1;j<=n-i;j++){
                 System.out.print(" ");
             }
-            for(int k=1;k<=i;k++){
-                System.out.print(c+" ");
-                c+=2;
-            }
-            System.out.println();
+            
         }
     }    
 }
