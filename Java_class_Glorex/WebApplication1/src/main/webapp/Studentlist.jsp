@@ -4,6 +4,7 @@
     Author     : Nilal
 --%>
 
+<%@page import="java.sql.Statement"%>
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -19,7 +20,8 @@
         Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webjava", "root", "");
             String query="SELECT * FROM studentdetails";
-
+            Statement sm=con.createStatement();
+            sm.executeQuery(query);
         %>
     </body>
 </html>
