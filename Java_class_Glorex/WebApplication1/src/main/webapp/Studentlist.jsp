@@ -18,7 +18,8 @@
         <% 
         Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webjava", "root", "");
-            
+            String query="SELECT * FROM studentdetails";
+
         %>
     </body>
 </html>
