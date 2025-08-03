@@ -18,20 +18,38 @@
     </head>
     <body>
         <h1>Student List</h1>
-        <% 
-        Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webjava", "root", "");
-            String query="SELECT * FROM studentdetails";
-            Statement sm=con.createStatement();
-            ResultSet rs=sm.executeQuery(query);
-            //PrintWriter out=response.getWriter();
-            while(rs.next()){
-                String id=rs.getString("id");
-                String name=rs.getString("name");
-                String email=rs.getString("email");
-                String phone=rs.getString("phone");
-                out.print(id+" "+name+" "+email+" "+phone+"<br>");
-            }
-        %>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%
+                    Class.forName("com.mysql.cj.jdbc.Driver");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webjava", "root", "");
+                    String query = "SELECT * FROM studentdetails";
+                    Statement sm = con.createStatement();
+                    ResultSet rs = sm.executeQuery(query);
+                    //PrintWriter out=response.getWriter();
+                    while (rs.next()) {
+                        String id = rs.getString("id");
+                        String name = rs.getString("name");
+                        String email = rs.getString("email");
+                        String phone = rs.getString("phone");
+                        out.print(id + " " + name + " " + email + " " + phone + "<br>");
+                        <tr>
+                                <td>
+
+                                </td>
+                        </tr>
+                %>
+
+            </tbody>
+        </table>
+
     </body>
 </html>
