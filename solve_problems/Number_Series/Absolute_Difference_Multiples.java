@@ -10,7 +10,9 @@ public class Absolute_Difference_Multiples {
         if(diff<0){
             diff=diff*(-1);
         }
-       
+        for(int i=1;i<=10;i++){
+            System.out.print(i*diff+" ");
+        }
                 
         
     }
