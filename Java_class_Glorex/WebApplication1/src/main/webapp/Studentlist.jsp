@@ -27,7 +27,7 @@
                     <th>Phone</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody border="1" cellpadding="10">
                 <%
                     Class.forName("com.mysql.cj.jdbc.Driver");
                     Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webjava", "root", "");
@@ -40,14 +40,17 @@
                         String name = rs.getString("name");
                         String email = rs.getString("email");
                         String phone = rs.getString("phone");
-                        out.print(id + " " + name + " " + email + " " + phone + "<br>");
-                        <tr>
-                                <td>
-
-                                </td>
-                        </tr>
+                        
+                %>              
+                <tr>
+                    <td><%=id%></td>
+                    <td><%=name%></td>
+                    <td><%=email%></td>
+                    <td><%=phone%></td>
+                </tr>
+                <%
+                    }
                 %>
-
             </tbody>
         </table>
 
