@@ -7,9 +7,7 @@ public class Absolute_Difference_Multiples {
         int n1=sc.nextInt();
         int n2=sc.nextInt();        
         int diff=n1-n2;
-        if(diff<0){
-            diff=diff*(-1);
-        }
+       
         for(int i=1;i<=10;i++){
             System.out.print(i*diff+" ");
         }
