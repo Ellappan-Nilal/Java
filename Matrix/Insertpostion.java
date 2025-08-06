@@ -24,6 +24,8 @@ public class Insertpostion {
             arr[i]=arr[i-1];
         }
         arr[pos]=newId;
-        
+        for(int i=0;i<=n;i++){
+            System.out.print(arr[i]+" ");
+        }
      }
 }
