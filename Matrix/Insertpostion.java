@@ -3,10 +3,6 @@ package Array;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Nilal
- */
 public class Insertpostion {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
