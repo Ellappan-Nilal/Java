@@ -13,7 +13,7 @@ public class Insertpostion {
             
         }
         int newId=sc.nextInt();
-        int pos=n;//assume insert at end
+        int pos=n;
         for(int i=0;i<n;i++){
             if(newId<arr[i]){
                 pos=i;
