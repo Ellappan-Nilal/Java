@@ -17,7 +17,7 @@ public class First_and_Second_max_add {
             return;
         }
 
-        
+        Arrays.sort(arr); 
 
         int firstMax = arr[arr.length - 1];
         int secondMax = arr[arr.length - 2]; 
