@@ -21,6 +21,7 @@
         <table>
             <thead>
                 <tr>
+                    <th></th>
                     <th>Id</th>
                     <th>Name</th>
                     <th>Email</th>
@@ -43,6 +44,10 @@
                         
                 %>              
                 <tr>
+                    <td>
+                        <a href="Editpage.jsp">Edit</a> |
+                        <a href="">Delete</a>
+                    </td>
                     <td><%=id%></td>
                     <td><%=name%></td>
                     <td><%=email%></td>
