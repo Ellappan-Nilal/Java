@@ -22,7 +22,7 @@ public static void main(String[] args){
                 System.out.print(c+" ");
                 c+=2;
             }
-            
+            System.out.println();
         }
     }    
 }
