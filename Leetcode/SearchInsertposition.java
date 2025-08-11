@@ -4,10 +4,6 @@
  */
 package solve_problems.Leetcode;
 
-/**
- *
- * @author Nilal
- */
 public class SearchInsertposition {
     public static void main(String[] args)
     {
