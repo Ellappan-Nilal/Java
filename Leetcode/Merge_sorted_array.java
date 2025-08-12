@@ -4,10 +4,6 @@
  */
 package solve_problems.Leetcode;
 
-/**
- *
- * @author Nilal
- */
 public class Merge_sorted_array {
     public static void main(String[] args){
         int nums1[]={1,2,3,0,0,0};
