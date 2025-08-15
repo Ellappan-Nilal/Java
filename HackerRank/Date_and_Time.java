@@ -5,8 +5,7 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Date_and_Time {
-
-    public static void main(String[] args) {
+	    public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
 			int month = scanner.nextInt();
 			int day = scanner.nextInt();
