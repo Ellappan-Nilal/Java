@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class anagram {
-
-
     static boolean isAnagram(String a, String b) {
          if (a.length() != b.length()) {
             return false;
