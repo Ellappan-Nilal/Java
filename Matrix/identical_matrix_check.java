@@ -25,7 +25,6 @@ public class identical_matrix_check {
             }
         }
 
-
         boolean identical = true;
 
         if (rows1 != rows2) { 
