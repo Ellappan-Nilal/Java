@@ -7,7 +7,7 @@ public class First_and_Second_max_add {
         int[] arr=new int[n];
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
-        }
+                }
 
         if (arr.length < 2) {
             System.out.println("Array must contain at least two elements.");
@@ -18,7 +18,7 @@ public class First_and_Second_max_add {
 
         int firstMax = arr[arr.length - 1];
         int secondMax = arr[arr.length - 2]; 
-        
+
          secondMax = arr[arr.length - 1]; 
          for (int i = arr.length - 2; i >= 0; i--) {
              if (arr[i] < firstMax) {
