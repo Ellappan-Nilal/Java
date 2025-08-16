@@ -18,7 +18,6 @@ public class First_and_Second_max_add {
 
         int firstMax = arr[arr.length - 1];
         int secondMax = arr[arr.length - 2]; 
-
         
          secondMax = arr[arr.length - 1]; 
          for (int i = arr.length - 2; i >= 0; i--) {
