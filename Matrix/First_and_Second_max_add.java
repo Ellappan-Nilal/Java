@@ -26,11 +26,11 @@ public class First_and_Second_max_add {
             }
          }
         int sum = firstMax + secondMax;
-        
+
 
         System.out.println("First maximum number: " + firstMax);
         System.out.println("Second maximum number: " + secondMax);
         System.out.println("Sum of first and second maximum numbers: " + sum);
-    }
+   }
 }    
 
