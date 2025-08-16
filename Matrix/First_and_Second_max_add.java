@@ -1,5 +1,3 @@
-
-
 import java.util.Arrays;
 import java.util.Scanner;
 public class First_and_Second_max_add {
