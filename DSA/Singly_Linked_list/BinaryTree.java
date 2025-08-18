@@ -37,8 +37,7 @@ class BinaryTree {
         }
         
     }
-    //preorder
-    
+    //preorder    
     public void preorder(){
         preorderRecurusion(root);
     }
@@ -52,3 +51,7 @@ class BinaryTree {
         
     }
 }
+
+
+
+
