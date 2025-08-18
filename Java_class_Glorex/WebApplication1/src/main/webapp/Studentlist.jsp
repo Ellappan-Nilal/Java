@@ -41,7 +41,7 @@
                         String name = rs.getString("name");
                         String email = rs.getString("email");
                         String phone = rs.getString("phone");
-                        
+
                 %>              
                 <tr>
                     <td>
@@ -61,3 +61,4 @@
 
     </body>
 </html>
+
