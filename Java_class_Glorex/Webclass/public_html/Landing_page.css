@@ -1,0 +1,19 @@
+.image1{
+    background-color: red;
+    border:5px solid black;
+    margin: 10px;
+}
+.para{
+    display:flex;
+    font-size: 150px;
+}
+.Landing{
+    display:block;
+    width:50%;
+    border:1px solid black;
+    float: left;
+}
+.Product{
+    width:300px; 
+        
+}
