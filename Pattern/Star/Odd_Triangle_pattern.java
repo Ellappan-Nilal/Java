@@ -1,4 +1,3 @@
-
 package solve_problems.StarPattern;
 import java.util.Scanner;
 
