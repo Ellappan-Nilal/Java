@@ -29,3 +29,8 @@ public class Odd_Triangle_pattern {
 
 
 
+
+
+
+
+
