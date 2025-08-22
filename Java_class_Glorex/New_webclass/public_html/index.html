@@ -10,16 +10,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form>
-            <input type="checkbox" name="op">A
-            <input type="checkbox" name="op">B
-            <input type="checkbox" name="op">C
-            <input type="checkbox" name="op">D
-            <br>
-            <input type="radio" name="op" id="a"><label for="a">A</label>
-            <input type="radio" name="op">B
-            <input type="radio" name="op">C
-            <input type="radio" name="op">D
-        </form>
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+
+        <datalist id="browsers">
+            <option value="Edge">Edge</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Chrome">Chrome</option>
+            <option value="Opera">Opera</option>
+            <option value="Safari">Safari</option>
+        </datalist>
     </body>
 </html>
