@@ -27,3 +27,8 @@ public class Minimum_element_in_row {
         sc.close();
     }
 }
+
+
+
+
+
