@@ -1,8 +1,6 @@
 package solve_problems.Number_Series;
 
-
 import java.util.Scanner;
-
 
 public class SQ_numbers {
     public static void findSquares(int a, int b) {
