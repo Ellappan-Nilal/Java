@@ -13,3 +13,9 @@ public class Check_if_multipes_of_N1_and_N2 {
         }
     }
 }
+
+
+
+
+
+
