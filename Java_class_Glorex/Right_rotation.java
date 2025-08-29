@@ -16,3 +16,7 @@ public class Right_rotation {
        System.out.print(b);
    } 
 }
+
+
+
+
