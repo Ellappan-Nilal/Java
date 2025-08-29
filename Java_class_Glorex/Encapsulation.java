@@ -1,10 +1,6 @@
 
 package solve_problems.Java_class;
 
-/**
- *
- * @author Nilal
- */
 class Account {
 
     private int acc_no;
