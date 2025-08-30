@@ -3,10 +3,6 @@ package solve_problems.Number_Series;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Nilal
- */
 public class unit_digit_assending_and_desending {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
