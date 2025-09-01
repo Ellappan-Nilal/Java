@@ -1,5 +1,4 @@
 package solve_problems.Number_Series;
-
 public class Recursion {
     public static void main(String[] args){
            // int i=10;
@@ -21,3 +20,5 @@ public class Recursion {
         return 1;
     }
 }
+
+
