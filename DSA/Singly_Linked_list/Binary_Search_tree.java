@@ -1,6 +1,5 @@
 
 package solve_problems.DSA.Singly_Linked_list;
-
 public class Binary_Search_tree {
     public static void main(String[] args){
         BinaryTree tree=new BinaryTree();
