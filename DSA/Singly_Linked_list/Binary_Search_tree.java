@@ -14,5 +14,7 @@ public class Binary_Search_tree {
         tree.inorder();
         tree.preorder();
         //tree.postorder();
+
+        
     }
 }
