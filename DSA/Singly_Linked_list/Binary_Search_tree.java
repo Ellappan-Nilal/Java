@@ -15,6 +15,3 @@ public class Binary_Search_tree {
         //tree.postorder();        
     }
 }
-
-
-
