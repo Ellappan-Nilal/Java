@@ -3,7 +3,3 @@ public class Armstrong_number {
         
     }
 }
-
-
-
-
