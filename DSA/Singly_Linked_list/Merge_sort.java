@@ -62,7 +62,5 @@ public class Merge_sort {
             System.out.print(n+" ");
         }
         
-    }
-
-    
+    }    
 }
