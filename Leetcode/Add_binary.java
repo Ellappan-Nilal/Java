@@ -25,6 +25,3 @@ public class Add_binary {
         return sb.reverse().toString();
     }
 }
-
-
-
