@@ -31,10 +31,4 @@ public class First_and_Second_max_add {
         System.out.println("Second maximum number: " + secondMax);
         System.out.println("Sum of first and second maximum numbers: " + sum);
    }
-}    
-
-
-
-
-
-
+} 
