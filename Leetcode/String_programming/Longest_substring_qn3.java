@@ -7,10 +7,6 @@ package solve_problems.Leetcode.String_programming;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Nilal
- */
 public class Longest_substring_qn3 {
     public static void main(String[] args){
         String s="abcdabcbb";
