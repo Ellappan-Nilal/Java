@@ -4,10 +4,6 @@
  */
 package solve_problems.Leetcode;
 
-/**
- *
- * @author Nilal
- */
 public class LongestPalindromicSubstring {
     
 }
