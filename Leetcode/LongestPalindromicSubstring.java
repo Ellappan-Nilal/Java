@@ -6,8 +6,7 @@ Explanation: "aba" is also a valid answer.
 */
 package solve_problems.Leetcode;
 
-public class LongestPalindromicSubstring {
-    
+class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         int start = 0, end = 0;
         for (int i = 0; i < s.length(); i++) {
@@ -31,4 +30,3 @@ public class LongestPalindromicSubstring {
         return right - left - 1;
     }
 }
-
