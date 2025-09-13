@@ -4,10 +4,6 @@
  */
 package solve_problems.Leetcode;
 
-/**
- *
- * @author Nilal
- */
 public class reverse_string_n_value {
     class Solution {
     public String reverseStr(String s, int k) {
