@@ -30,3 +30,5 @@ class LongestPalindromicSubstring {
         return right - left - 1;
     }
 }
+
+
