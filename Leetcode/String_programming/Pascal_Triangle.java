@@ -4,10 +4,7 @@
  */
 package solve_problems.Leetcode.String_programming;
  import java.util.*;
-/**
- *
- * @author Nilal
- */
+
 public class Pascal_Triangle {
   
 
