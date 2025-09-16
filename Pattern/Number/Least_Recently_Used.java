@@ -6,10 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-/**
- *
- * @author Nilal
- */
+
 public class Least_Recently_Used {
     
     public static void main(String[] args) {
