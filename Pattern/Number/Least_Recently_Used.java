@@ -5,7 +5,12 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
-
+/*
+ * 
+ * Cache capacity: 3
+ Number of pages: 7
+Page sequence: 1 2 3 4 2 1 5
+ */
 
 public class Least_Recently_Used {
     
