@@ -46,6 +46,3 @@ public class Least_Recently_Used {
         System.out.println("Miss count: " + missCount);
     }
 }
-
-
-
