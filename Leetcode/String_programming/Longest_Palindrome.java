@@ -3,7 +3,12 @@ package solve_problems.Leetcode.String_programming;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/*
+ * 
+ * Input: s = "abccccdd"
+Output: 7
+Explanation: One longest palindrome that can be built is "dccaccd", whose length is 7.
+ */
 
 public class Longest_Palindrome {
     public int longestPalindrome(String s){
