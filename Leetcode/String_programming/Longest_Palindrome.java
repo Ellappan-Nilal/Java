@@ -7,10 +7,7 @@ package solve_problems.Leetcode.String_programming;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *
- * @author Nilal
- */
+
 public class Longest_Palindrome {
     public int longestPalindrome(String s){
         Map<Character, Integer> counts=new HashMap();
