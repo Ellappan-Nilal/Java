@@ -4,10 +4,6 @@
  */
 package solve_problems.Leetcode;
 
-/**
- *
- * @author Nilal
- */
 public class Max_sub_array {
    
     public int maxSubArray(int[] nums) {
