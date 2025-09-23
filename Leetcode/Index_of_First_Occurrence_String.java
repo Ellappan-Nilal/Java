@@ -4,11 +4,8 @@
  */
 package solve_problems.Leetcode;
 
-/**
- *
- * @author Nilal
- */
 public class Index_of_First_Occurrence_String {
+
     public static void main(String[] args) {
         System.out.println(strStr("sadbutsad", "sad"));
     }
@@ -24,4 +21,3 @@ public class Index_of_First_Occurrence_String {
         return -1;
     }
 }
-
