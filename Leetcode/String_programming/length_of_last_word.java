@@ -4,10 +4,6 @@
  */
 package solve_problems.Leetcode.String_programming;
 
-/**
- *
- * @author Nilal
- */
 public class length_of_last_word {
     
 }
