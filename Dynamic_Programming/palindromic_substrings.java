@@ -35,7 +35,7 @@ public class palindromic_substrings {
         System.out.println(countWays(s1)); 
 
         String s2 = "aba";
-        System.out.println(countWays(s2)); // Output: 2 (["aba"], ["a","b","a"])
+        System.out.println(countWays(s2));
 
         String s3 = "aaa";
         System.out.println(countWays(s3)); // Output: 4 (["aaa"], ["a","aa"], ["aa","a"], ["a","a","a"])
