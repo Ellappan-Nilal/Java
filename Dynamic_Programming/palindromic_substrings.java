@@ -29,10 +29,10 @@ public class palindromic_substrings {
         return dp[n];
     }
 
-    // Main function for testing
+    
     public static void main(String[] args) {
         String s1 = "a";
-        System.out.println(countWays(s1)); // Output: 1
+        System.out.println(countWays(s1)); 
 
         String s2 = "aba";
         System.out.println(countWays(s2)); // Output: 2 (["aba"], ["a","b","a"])
