@@ -1,6 +1,8 @@
 
 package solve_problems.Dynamic_Programming;
-
+// Output: 1
+// Output: 2 (["aba"], ["a","b","a"])
+// Output: 4 (["aaa"], ["a","aa"], ["aa","a"], ["a","a","a"])
 import java.util.*;
 public class palindromic_substrings {
     
@@ -35,10 +37,10 @@ public class palindromic_substrings {
         System.out.println(countWays(s1)); 
 
         String s2 = "aba";
-        System.out.println(countWays(s2));
+        System.out.println(countWays(s2)); 
 
         String s3 = "aaa";
-        System.out.println(countWays(s3)); // Output: 4 (["aaa"], ["a","aa"], ["aa","a"], ["a","a","a"])
+        System.out.println(countWays(s3)); 
     }
 }
 
