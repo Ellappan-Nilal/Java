@@ -3,7 +3,7 @@ package solve_problems.Dynamic_Programming;
 
 import java.util.*;
 public class palindromic_substrings {
-    // Function to check if substring s[l..r] is palindrome without using built-in functions
+    
     static boolean isPalindrome(String s, int l, int r) {
         while (l < r) {
             if (s.charAt(l) != s.charAt(r)) {
@@ -14,8 +14,6 @@ public class palindromic_substrings {
         }
         return true;
     }
-
-    // Function to count ways to partition
     static int countWays(String s) {
         int n = s.length();
         int[] dp = new int[n + 1];
