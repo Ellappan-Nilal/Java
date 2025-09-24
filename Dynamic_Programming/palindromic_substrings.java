@@ -4,10 +4,6 @@
  */
 package solve_problems.Dynamic_Programming;
 
-/**
- *
- * @author Nilal
- */
 import java.util.*;
 public class palindromic_substrings {
     // Function to check if substring s[l..r] is palindrome without using built-in functions
