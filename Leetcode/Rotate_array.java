@@ -1,6 +1,11 @@
 package solve_problems.Leetcode;
 import java.util.Arrays;
 public class Rotate_array {
+    public static void main(String[] args){
+        int nums[]={1,2,3,4,5,6};
+        int k=3;
+        System.out.println(Arrays);
+    }
     public static int[] rotate(int[] nums,int k){
         int n=nums.length;
         reverse(nums,0,n-1);
@@ -13,6 +18,12 @@ public class Rotate_array {
             int temp=nums[start];
             nums[start]=nums[end];
             nums[end]=temp;
+            start++;
+            end--;
         }
     }
+
+
+
+    
 }
