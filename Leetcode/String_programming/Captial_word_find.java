@@ -4,10 +4,6 @@
  */
 package solve_problems.Leetcode.String_programming;
 
-/**
- *
- * @author Nilal
- */
 public class Captial_word_find {
     
 }
