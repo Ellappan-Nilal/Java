@@ -1,6 +1,4 @@
-
 package solve_problems.Leetcode.String_programming;
-
 /**
  *
  * Input: s = "abab" Output: true Explanation: It is the substring "ab" twice.
