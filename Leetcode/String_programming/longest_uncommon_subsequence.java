@@ -1,5 +1,4 @@
 package solve_problems.Leetcode.String_programming;
-
 public class longest_uncommon_subsequence {
     public int findLUSlength(String a, String b) {
         if (a.equals(b)) {
