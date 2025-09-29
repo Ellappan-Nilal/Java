@@ -12,6 +12,13 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form action="Student_servelt">
+            <table>
+                <tr>
+                    <td></td>
+                    <td><input type="text" placeholder="Enter your name"></td>
+                </tr>
+            </table>
+        </form>
     </body>
 </html>
