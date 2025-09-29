@@ -13,10 +13,22 @@
     </head>
     <body>
         <form action="Student_servelt">
-            <table>
+            <table cellspacing="20">
+                <tr>
+                    <td>Name </td>
+                    <td><input type="text" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td><input type="number" placeholder="Enter your mobile No"></td>
+                </tr>
                 <tr>
                     <td></td>
-                    <td><input type="text" placeholder="Enter your name"></td>
+                    <td><button>Submit</button></td>
                 </tr>
             </table>
         </form>
