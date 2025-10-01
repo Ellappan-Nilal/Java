@@ -15,6 +15,3 @@ public class Reverse_string {
 
     }
 }
-
-
-
