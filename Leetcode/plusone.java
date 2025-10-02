@@ -6,10 +6,6 @@ package solve_problems.Leetcode;
 
 import java.util.Arrays;
 
-/**
- *
- * @author Nilal
- */
 public class plusone {
     public static void main(String[] args){
         int[] digits={1,2,3};
