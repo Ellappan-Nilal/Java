@@ -13,8 +13,3 @@ public class Palindrome_String{
     }
   }
 }
-
-
-
-
-
