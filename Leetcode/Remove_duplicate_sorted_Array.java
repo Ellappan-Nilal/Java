@@ -39,6 +39,3 @@ class Solution {
         scanner.close();
     }
 }
-
-
-
