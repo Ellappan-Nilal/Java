@@ -18,9 +18,3 @@ public class length_of_last_word {
         return count;
     }
 }
-
-
-
-
-
-
