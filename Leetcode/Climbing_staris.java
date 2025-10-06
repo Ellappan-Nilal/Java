@@ -4,10 +4,7 @@
  */
 package solve_problems.Leetcode;
 
-/**
- *
- * @author Nilal
- */
+
 public class Climbing_staris {
     public static void main(String[] args){
         System.out.print(climStairCase(4));
