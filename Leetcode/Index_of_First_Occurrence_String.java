@@ -18,8 +18,3 @@ public class Index_of_First_Occurrence_String {
         return -1;
     }
 }
-
-
-
-
-
