@@ -1,7 +1,6 @@
 
 package solve_problems.Leetcode.String_programming;
 import java.util.*;
-
 public class MostCommonWord {
     public String mostCommonWord(String paragraph, String[] banned) {
         paragraph = paragraph.toLowerCase();
