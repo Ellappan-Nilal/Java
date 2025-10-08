@@ -14,7 +14,7 @@ public class Student_servelt extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // Get form parameters
+        
         String studentName = request.getParameter("Sname");
         String studentEmail = request.getParameter("Semail");
         String studentMobile = request.getParameter("Smobile");
