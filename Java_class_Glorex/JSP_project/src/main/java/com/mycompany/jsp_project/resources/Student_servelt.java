@@ -19,7 +19,7 @@ public class Student_servelt extends HttpServlet {
         String studentEmail = request.getParameter("Semail");
         String studentMobile = request.getParameter("Smobile");
 
-        // Print to console (or write to DB / response)
+        
         System.out.println("Student Info:");
         System.out.println("Name: " + studentName);
         System.out.println("Email: " + studentEmail);
