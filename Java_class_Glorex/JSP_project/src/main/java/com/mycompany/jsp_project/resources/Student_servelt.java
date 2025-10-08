@@ -25,7 +25,7 @@ public class Student_servelt extends HttpServlet {
         System.out.println("Email: " + studentEmail);
         System.out.println("Mobile: " + studentMobile);
 
-        // Optional: send a response back to the browser
+        
         response.setContentType("text/html");
         response.getWriter().println("<h3>Student details submitted successfully!</h3>");
     }
