@@ -30,7 +30,7 @@ public class Student_servelt extends HttpServlet {
         response.getWriter().println("<h3>Student details submitted successfully!</h3>");
     }
 
-    // (Optional) also handle GET requests if someone visits /Student_servelt directly
+    
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
