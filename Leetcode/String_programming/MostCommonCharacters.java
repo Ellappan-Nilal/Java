@@ -30,7 +30,7 @@ public class MostCommonCharacters {
     public static void main(String[] args) {
         MostCommonCharacters sol = new MostCommonCharacters();
 
-        // Example 1
+        
         String[] words1 = {"bella", "label", "roller"};
         List<String> result1 = sol.commonChars(words1);
         System.out.println("Example 1 Output: " + result1);
