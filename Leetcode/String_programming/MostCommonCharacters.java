@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package solve_problems.Leetcode.String_programming;
 
-/**
- *
- * @author Nilal
- */import java.util.*;
+package solve_problems.Leetcode.String_programming;
+import java.util.*;
 public class MostCommonCharacters {
 
     public List<String> commonChars(String[] words) {
@@ -42,10 +35,7 @@ public class MostCommonCharacters {
         List<String> result1 = sol.commonChars(words1);
         System.out.println("Example 1 Output: " + result1);
 
-        // Example 2
-        String[] words2 = {"cool", "lock", "cook"};
-        List<String> result2 = sol.commonChars(words2);
-        System.out.println("Example 2 Output: " + result2);
+        
     }
 }
 
