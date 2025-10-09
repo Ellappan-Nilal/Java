@@ -4,10 +4,7 @@
  */
 package solve_problems.Leetcode.String_programming;
 
-/**
- *
- * @author Nilal
- */
+
 public class ReverseOnlyLetters {
 
     public static void main(String[] args) {
