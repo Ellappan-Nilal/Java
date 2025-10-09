@@ -26,7 +26,7 @@ public class MostCommonCharacters {
         return ans;
     }
 
-    // ✅ Main method to test the function
+    
     public static void main(String[] args) {
         MostCommonCharacters sol = new MostCommonCharacters();
 
