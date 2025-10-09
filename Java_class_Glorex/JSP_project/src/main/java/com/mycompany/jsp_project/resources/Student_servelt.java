@@ -1,6 +1,7 @@
 package com.mycompany.jsp_project.resources;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,22 +19,15 @@ public class Student_servelt extends HttpServlet {
         String studentName = request.getParameter("Sname");
         String studentEmail = request.getParameter("Semail");
         String studentMobile = request.getParameter("Smobile");
-
         
-        System.out.println("Student Info:");
-        System.out.println("Name: " + studentName);
-        System.out.println("Email: " + studentEmail);
-        System.out.println("Mobile: " + studentMobile);
-
+        PrintWriter out=response.getWriter();
         
-        response.setContentType("text/html");
-        response.getWriter().println("<h3>Student details submitted successfully!</h3>");
-    }
-
-    
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        response.getWriter().println("<h3>Use the form to submit student details.</h3>");
+       out.println("Student Info:");
+       out.println("Name: " + studentName);
+       out.println("Email: " + studentEmail);
+       out.println("Mobile: " + studentMobile);
+        
+        
+       
     }
 }
