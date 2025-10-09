@@ -11,7 +11,8 @@ package solve_problems.Leetcode.String_programming;
 public class ReverseOnlyLetters {
 
     public static void main(String[] args) {
-
+            String s="ab-cd";
+            System.out.println(reverseOnlyletters(s));
     }
 
     public static String reverseOnlyletters(String s) {
