@@ -6,7 +6,6 @@ public class Lowercase_string {
     public String toLowerCase(String s) {
         return s.toLowerCase();
     }
-
     public static void main(String[] args) {
         Lowercase_string sol = new Lowercase_string();
 
