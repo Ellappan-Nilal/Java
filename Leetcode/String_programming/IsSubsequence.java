@@ -5,10 +5,7 @@ package solve_problems.Leetcode.String_programming;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-/**
- *
- * @author Nilal
- */
+
 public class IsSubsequence {
     public static void main(String[] args){
         String s="abc";
