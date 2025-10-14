@@ -2,6 +2,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -27,13 +29,19 @@ public class Student_servelt extends HttpServlet {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/learn", "root", "");
+            String sql="INSERT INTO details(name, email, mobile values) values(?,?,?)";
+            PreparedStatement ps=con.prepareStatement(sql);
+            ps.setString(1,studentName);
+            ps.setString(1,studentEmail);
+            ps.setString(1,studentMobile);
+            ResultSet rs=ps.executeUpdate();
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Student_servelt.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
             Logger.getLogger(Student_servelt.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-       out.println("Student Info:");
+       out.println("Student studentName:");
        out.println("Name: " + studentName);
        out.println("Email: " + studentEmail);
        out.println("Mobile: " + studentMobile);
