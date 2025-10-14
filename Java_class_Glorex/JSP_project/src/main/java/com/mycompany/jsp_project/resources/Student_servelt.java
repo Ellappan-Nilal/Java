@@ -34,7 +34,10 @@ public class Student_servelt extends HttpServlet {
             ps.setString(1,studentName);
             ps.setString(1,studentEmail);
             ps.setString(1,studentMobile);
-            ResultSet rs=ps.executeUpdate();
+            int rowsAffected=ps.executeUpdate();
+            if(rowsAffected>0){
+                out.print("Successfully Inserted");
+            }
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Student_servelt.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
