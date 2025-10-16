@@ -4,10 +4,7 @@
  */
 package solve_problems.DSA.Singly_Linked_list.Scalar;
 
-/**
- *
- * @author Nilal
- */
+
 public class SmallestNumber1 {
     
 }
