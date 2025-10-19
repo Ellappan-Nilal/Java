@@ -27,7 +27,3 @@ public class SmallestNumber1 {
         }
     }
 }
-
-
-
-
