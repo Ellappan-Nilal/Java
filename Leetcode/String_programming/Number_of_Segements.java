@@ -21,5 +21,3 @@ public class Number_of_Segements {
         return c;
     }
 }
-
-
