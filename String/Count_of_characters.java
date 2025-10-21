@@ -10,5 +10,3 @@ public class Count_of_characters{
     System.out.println("number of characters in a string are"+count);
   }
 }
-
-
