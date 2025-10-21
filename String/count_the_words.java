@@ -8,7 +8,7 @@ public class count_the_words {
         int cnt=0;
         
         System.out.println(cnt+1);
-        
+        sc.close();
     }
 }
 
