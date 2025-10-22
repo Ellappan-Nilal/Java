@@ -12,4 +12,3 @@ public class Match_three_first_char {
         }
     }
 }
-
