@@ -7,5 +7,3 @@ public class Maximum_element {
 
     }
 }
-
-
