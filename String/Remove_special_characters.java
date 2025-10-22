@@ -12,5 +12,3 @@ public class Remove_special_characters {
         }
     }
 }
-
-
