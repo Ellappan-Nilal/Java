@@ -27,6 +27,3 @@ public class Evennumber_pramid {
         }
     }
 }
-
-
-
