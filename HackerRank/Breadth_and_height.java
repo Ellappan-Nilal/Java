@@ -14,5 +14,3 @@ public class Breadth_and_height {
         }
     }
 }
-
-
