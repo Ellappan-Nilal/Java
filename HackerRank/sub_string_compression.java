@@ -27,3 +27,5 @@ public class sub_string_compression {
         System.out.println(getSmallestAndLargest(s, k));
     }
 }
+
+
