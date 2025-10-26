@@ -9,7 +9,12 @@ public class Matrix_90_degree {
         print(arr);
     }
     public static void print(int[][] arr){
-        
+        for(int[] a:arr){
+            for(int val:a){
+                System.out.print(val+" ");
+            }
+            System.out.println();
+        }
     }
     public static void rotate90(int[][] arr){
         //transpose
