@@ -1,5 +1,5 @@
 
-package solve_problems.DSA.Singly_Linked_list.Scalar;
+package solve_problems.DSA.Scalar;
 
 import java.util.Scanner;
 

@@ -1,5 +1,5 @@
 
-package solve_problems.DSA.Singly_Linked_list.Scalar;
+package solve_problems.DSA.Scalar;
 
 public class Matrix_90_degree {
     
