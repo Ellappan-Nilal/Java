@@ -33,6 +33,7 @@ public class Sprial_Matrix {
             }
             rmax--;
             //left boundary
+            
             for (int row = rmax; row >= rmin && count<n*m; row--) {
                 System.out.print(arr[row][cmin] + " ");
                 count++;
