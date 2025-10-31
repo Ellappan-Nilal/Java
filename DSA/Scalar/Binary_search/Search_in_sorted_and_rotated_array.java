@@ -1,4 +1,3 @@
-
 package solve_problems.DSA.Scalar.Binary_search;
 
 
