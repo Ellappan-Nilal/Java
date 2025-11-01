@@ -1,4 +1,3 @@
-
 package solve_problems.DSA.Scalar;
 
 public class Majority_Element {
@@ -34,3 +33,6 @@ public class Majority_Element {
          
     }
 }
+
+
+
