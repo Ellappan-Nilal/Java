@@ -1,9 +1,5 @@
-
 package solve_problems.DSA.Scalar;
-
 import java.util.Scanner;
-
-
 public class SmallestNumber1 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
