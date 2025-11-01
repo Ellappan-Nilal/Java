@@ -1,8 +1,6 @@
-
 package solve_problems.DSA.Scalar;
 
 import java.util.Arrays;
-
 public class Three_sum {
     public static void main(String[] args){
         int[] arr={7,-6,3,8,-1,8,-11};
