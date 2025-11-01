@@ -1,7 +1,6 @@
 package solve_problems.DSA.Scalar;
 
 import java.util.HashMap;
-
 public class Two_Sum {
     public static void main(String[] args){
         int[] arr = {11, 3, 7, 9, 14, 2};
