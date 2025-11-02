@@ -26,12 +26,12 @@ public class MatrixSearch {
             {10, 11, 16, 20},
             {23, 30, 34, 50}
         };
-        System.out.println(searchMatrix(A1, 3)); // Output: 1
+        System.out.println(searchMatrix(A1, 3)); 
 
         int[][] A2 = {
             {5, 17, 100, 111},
             {119, 120, 127, 131}
         };
-        System.out.println(searchMatrix(A2, 3)); // Output: 0
+        System.out.println(searchMatrix(A2, 3)); 
     }
 }

@@ -1,7 +1,6 @@
 package DSA.Scalar.Binary_search;
 
 public class RotatedSortedArraySearch {
-
     public static int search(int[] A, int B) {
         int left = 0, right = A.length - 1;
 
