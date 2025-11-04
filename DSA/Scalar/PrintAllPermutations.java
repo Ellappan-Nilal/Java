@@ -6,3 +6,8 @@ public class PrintAllPermutations {
         printPermutation(arr,0,new boolean[arr.length],new ArrayList<>());
     }
 }
+
+
+
+
+
