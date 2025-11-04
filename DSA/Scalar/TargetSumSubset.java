@@ -7,8 +7,9 @@ public class TargetSumSubset {
         
     }
     public static void tes(int[] arr, int pos, boolean[] selected, ArrayList<Integer> ans){
+      
     //select ith element
-    ans.add[arr[i]];
-    tes(arr,i+1,length-arr[i],ans);
+    ans.add(arr[i]);
+    tes(arr,i+1,target-arr[i],ans);
     }
 }
