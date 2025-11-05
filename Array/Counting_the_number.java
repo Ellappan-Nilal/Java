@@ -28,8 +28,3 @@ public class Counting_the_number
 		}
 	}
 }
-
-
-
-
-
