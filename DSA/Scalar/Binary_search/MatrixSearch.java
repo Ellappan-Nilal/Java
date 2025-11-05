@@ -35,9 +35,3 @@ public class MatrixSearch {
         System.out.println(searchMatrix(A2, 3)); 
     }
 }
-
-
-
-
-
-
