@@ -42,7 +42,3 @@ public class RotatedSortedArraySearch {
         System.out.println(search(A2, B2)); 
     }
 }
-
-
-
-
