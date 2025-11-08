@@ -7,7 +7,7 @@ public class TargetSumSubsets {
         printTargetSumSubsets(arr, 0, "", 0, target);
     }
 
-    // Recursive function to explore all subsets
+    
     public static void printTargetSumSubsets(int[] arr, int idx, String set, int sumSoFar, int target) {
         // Base Case: if we've considered all elements
         if (idx == arr.length) {
