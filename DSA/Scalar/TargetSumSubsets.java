@@ -18,7 +18,7 @@ public class TargetSumSubsets {
             return;
         }
 
-        // Include current element
+        
         printTargetSumSubsets(arr, idx + 1, set + (set.isEmpty() ? "" : ", ") + arr[idx], sumSoFar + arr[idx], target);
 
         // Exclude current element
