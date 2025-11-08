@@ -11,7 +11,7 @@ public class TargetSumSubsets {
     public static void printTargetSumSubsets(int[] arr, int idx, String set, int sumSoFar, int target) {
        
         if (idx == arr.length) {
-            // Check if the current subset's sum equals target
+            
             if (sumSoFar == target) {
                 System.out.println(set);
             }
