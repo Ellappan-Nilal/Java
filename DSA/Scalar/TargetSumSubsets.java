@@ -1,4 +1,10 @@
 package DSA.Scalar;
+/*output
+ * 10, 20, 30
+10, 50
+20, 40
+ * 
+ */
 public class TargetSumSubsets {
 
     public static void main(String[] args) {
