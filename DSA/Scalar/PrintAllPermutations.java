@@ -1,8 +1,7 @@
 package DSA.Scalar;
 
 public class PrintAllPermutations {
-    package DSA.Scalar.Recursion;
-
+   
 public class TargetSumSubsets {
 
     public static void main(String[] args) {
