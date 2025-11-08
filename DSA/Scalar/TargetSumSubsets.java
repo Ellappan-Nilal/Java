@@ -1,7 +1,4 @@
 package DSA.Scalar;
-
-public class PrintAllPermutations {
-   
 public class TargetSumSubsets {
 
     public static void main(String[] args) {
