@@ -9,7 +9,7 @@ public class TargetSumSubsets {
 
     
     public static void printTargetSumSubsets(int[] arr, int idx, String set, int sumSoFar, int target) {
-        // Base Case: if we've considered all elements
+       
         if (idx == arr.length) {
             // Check if the current subset's sum equals target
             if (sumSoFar == target) {
