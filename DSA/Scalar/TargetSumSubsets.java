@@ -30,8 +30,3 @@ public class TargetSumSubsets {
         printTargetSumSubsets(arr, idx + 1, set, sumSoFar, target);
     }
 }
-
-
-
-
-
