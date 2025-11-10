@@ -16,3 +16,5 @@ public class Captial_word_find {
         System.out.println(sol.detectCapitalUse("FlaG"));     // false
     }
 }
+
+
