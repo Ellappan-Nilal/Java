@@ -4,10 +4,6 @@
  */
 package solve_problems.DSA.Scalar.Backtracking;
 
-/**
- *
- * @author Nilal
- */
 public class Nqueens {
     
 }
