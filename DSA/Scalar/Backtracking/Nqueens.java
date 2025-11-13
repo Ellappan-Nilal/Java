@@ -1,6 +1,8 @@
 import java.util.*;
 public class Main{
-public static void main(String[] args) { -
+public static void main(String[] args) { 
+    int n=4;
+    char[][] arr=new char[n][n];
 }
 public static void print Permutations (int[] arr, int pos, boolean[] selected, ArrayList<Integer> ans) { -
 }
