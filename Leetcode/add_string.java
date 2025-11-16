@@ -4,10 +4,6 @@
  */
 package solve_problems.Leetcode;
 
-/**
- *
- * @author Nilal
- */
 public class add_string {
    class Solution {
     public String addStrings(String num1, String num2) {
