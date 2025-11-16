@@ -8,11 +8,20 @@ public static void main(String[] args) {
             arr[i][j]='.';
         }
     }
+    nQueens(arr,0);
 }
 public static void print Permutations (int[] arr, int pos, boolean[] selected, ArrayList<Integer> ans) { -
 }
 public static void tss (int () arr, int i, int target, ArrayList<Integer> ans){-
 }
-public static void nQueens (char[] [] arr, int row
-C 10 10
+public static void nQueens (char[] [] arr, int row){
+   for(int col=0;col<arr[0].length;col++) {
+       if(isSafe(arr,row,col)==true){
+           arr[row][col]='Q';
+           nQueens(arr,row+1);
+           arr[row][col]='.';
+       }
+   }
+}
+
 }
