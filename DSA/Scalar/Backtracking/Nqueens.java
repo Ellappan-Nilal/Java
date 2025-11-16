@@ -14,6 +14,9 @@ public static void print Permutations (int[] arr, int pos, boolean[] selected, A
 }
 public static void tss (int () arr, int i, int target, ArrayList<Integer> ans){-
 }
+public static boolean isSafe(char[][] ch,int row,int col){
+    
+}
 public static void print(char[][] arr){
     for(int i=0;i<arr.length;i++){
         for(int j=0;j<arr[0].length;j++){
