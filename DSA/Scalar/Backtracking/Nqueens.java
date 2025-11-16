@@ -14,8 +14,18 @@ public static void print Permutations (int[] arr, int pos, boolean[] selected, A
 }
 public static void tss (int () arr, int i, int target, ArrayList<Integer> ans){-
 }
-public static boolean isSafe(char[][] ch,int row,int col){
-    
+public static boolean isSafe(char[][] arr,int row,int col){
+    for(int i=0;i<row;i++){
+        if(arr[i][col]=='Q'){
+            return false;
+        }
+    }
+    //checking diagonal 1
+    for(int i=row-1,j=col+1;i>=0&&j<arr[0].length;i--,j++){
+        if(arr[i][j]=='Q'){
+            return false;
+        }
+    }
 }
 public static void print(char[][] arr){
     for(int i=0;i<arr.length;i++){
