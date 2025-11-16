@@ -27,6 +27,3 @@ class Solution {
         return new String(chars);
     }
 }
-
-
-
