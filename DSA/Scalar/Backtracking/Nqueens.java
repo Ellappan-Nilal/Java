@@ -26,6 +26,12 @@ public static boolean isSafe(char[][] arr,int row,int col){
             return false;
         }
     }
+    //checking diagonal 2
+     for(int i=row-1,j=col-1;i>=0&&j>=0;i--,j--){
+        if(arr[i][j]=='Q'){
+            return false;
+        }
+    }
 }
 public static void print(char[][] arr){
     for(int i=0;i<arr.length;i++){
