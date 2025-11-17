@@ -16,6 +16,10 @@ public class Sudoku {
         }
     }
     public static void sudokusolve(char[][] arr,int x,int y){
+        if(x==arr.length){
+            return true;
+        }
+        
         int nx=y==8?x+1:x;
         int ny=y==8?0:y+1;
         if(arr[i][j]=='.'){
@@ -25,12 +29,13 @@ public class Sudoku {
                 if(sudokusolve(arr,nx,ny)==true)
                     return true;
             }
-            arr[x][y]=(char)(val+'0');
+            arr[x][y]='.');
         }
     }else{
             if(sudokusolver(arr,nx,ny)==true){
                 return true;
             }
         }
+        return false;
     }
 }
