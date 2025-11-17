@@ -53,7 +53,6 @@ public class Sudoku {
 
         return false;
     }
-
     public static boolean canWePlace(char[][] arr, int x, int y, int val) {
         char ch = (char) (val + '0');
         // Check row
