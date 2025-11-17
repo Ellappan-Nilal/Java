@@ -1,7 +1,6 @@
 package solve_problems.DSA.Scalar.Backtracking;
 
 public class Sudoku {
-
     public static void main(String[] args) {
         char[][] board = {
                 {'5','3','.','.','7','.','.','.','.'},
