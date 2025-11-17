@@ -68,7 +68,7 @@ public class Sudoku {
             if (arr[i][y] == ch) return false;
         }
 
-        // Check 3×3 box
+        // Check 3×3 box    
         int sx = (x / 3) * 3;
         int sy = (y / 3) * 3;
 
