@@ -74,6 +74,3 @@ public class Sudoku {
         return true;
     }
 }
-
-
-
