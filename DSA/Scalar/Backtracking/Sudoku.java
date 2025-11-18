@@ -51,6 +51,7 @@ public class Sudoku {
 
         return false;
     }
+    
     public static boolean canWePlace(char[][] arr, int x, int y, int val) {
         char ch = (char) (val + '0');
         // Check row
@@ -62,7 +63,7 @@ public class Sudoku {
         for (int i = 0; i < 9; i++) {
             if (arr[i][y] == ch) return false;
         }
-        
+
         // Check 3×3 box    
         int sx = (x / 3) * 3;
         int sy = (y / 3) * 3;
