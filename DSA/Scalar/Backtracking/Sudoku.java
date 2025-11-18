@@ -28,7 +28,6 @@ public class Sudoku {
             System.out.println("No solution exists.");
         }
     }
-
     public static boolean sudokuSolve(char[][] arr, int x, int y) {
         if (x == 9) return true;
 
