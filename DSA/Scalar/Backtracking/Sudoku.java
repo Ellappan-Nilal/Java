@@ -65,6 +65,7 @@ public class Sudoku {
         int sx = (x / 3) * 3;
         int sy = (y / 3) * 3;
 
+        
         for (int i = sx; i < sx + 3; i++) {
             for (int j = sy; j < sy + 3; j++) {
                 if (arr[i][j] == ch) return false;
@@ -74,7 +75,3 @@ public class Sudoku {
         return true;
     }
 }
-
-
-
-
