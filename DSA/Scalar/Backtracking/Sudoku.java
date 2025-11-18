@@ -57,11 +57,12 @@ public class Sudoku {
         for (int j = 0; j < 9; j++) {
             if (arr[x][j] == ch) return false;
         }
-        
+
         // Check column
         for (int i = 0; i < 9; i++) {
             if (arr[i][y] == ch) return false;
         }
+        
         // Check 3×3 box    
         int sx = (x / 3) * 3;
         int sy = (y / 3) * 3;
