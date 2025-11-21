@@ -19,9 +19,6 @@ public class Majority_Element {
                  count=1;
              }
          }//verify if candidate is yor asnor not 
-
-
-         
          count=0;
          for(int val:arr){
              if(val==candidate){
