@@ -1,7 +1,5 @@
 public class ExpressionMatching {
-
     public static class Solution {
-
         public boolean isMatch(String s, String p) {
 
             // If pattern is empty, string must also be empty
