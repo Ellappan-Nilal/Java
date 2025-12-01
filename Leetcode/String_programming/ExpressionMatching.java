@@ -1,12 +1,10 @@
 public class ExpressionMatching {
     public static class Solution {
         public boolean isMatch(String s, String p) {
-
             // If pattern is empty, string must also be empty
             if (p.length() == 0) {
                 return s.length() == 0;
             }
-
             // Case 1: Pattern length is 1 OR next character is not '*'
             if (p.length() == 1 || p.charAt(1) != '*') {
                 if (s.length() < 1 || (p.charAt(0) != '.' && s.charAt(0) != p.charAt(0))) {
