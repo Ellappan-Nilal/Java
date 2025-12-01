@@ -16,10 +16,8 @@ public class ExpressionMatching {
             else {
                 int len = s.length();
                 int i = -1;
-
                 // Try all possible prefixes
                 while (i < len && (i < 0 || p.charAt(0) == '.' || p.charAt(0) == s.charAt(i))) {
-
                     // Skip the x* part
                     if (isMatch(s.substring(i + 1), p.substring(2))) {
                         return true;
