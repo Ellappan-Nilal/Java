@@ -10,7 +10,7 @@ public class Majority_Element {
         int count=1;
          for(int i=1;i<n;i++){
              if(arr[i]==candidate){
-                 count++;
+                 count++; 
              }else{
                  count--;
              }
