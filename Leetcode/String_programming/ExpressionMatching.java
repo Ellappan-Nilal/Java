@@ -12,7 +12,6 @@ public class ExpressionMatching {
                 }
                 return isMatch(s.substring(1), p.substring(1));
             }
-
             // Case 2: Next char is '*'
             else {
                 int len = s.length();
