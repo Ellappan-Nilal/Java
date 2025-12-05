@@ -25,7 +25,3 @@ public class Longest_substring_qn3 {
         System.out.println("Max length is :"+max_length);
     }
 }
-
-
-
-
