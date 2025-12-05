@@ -25,5 +25,3 @@ public class Lowercase_string {
         System.out.println("Output: " + sol.toLowerCase(s3)); // lovely
     }
 }
-
-
