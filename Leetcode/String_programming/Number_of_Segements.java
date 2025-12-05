@@ -11,6 +11,8 @@ public class Number_of_Segements {
         if(seg.equals("")){
             return 0;
         }
+
+        
         String[] a=seg.split(" ");
         for(int i=0;i<a.length;i++){
             if(a[i]!=""){
