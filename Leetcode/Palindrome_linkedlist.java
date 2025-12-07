@@ -40,7 +40,7 @@ public class Palindrome_linkedlist {
 
     public boolean isPalindrome(ListNode head) {
 
-        // Empty list or single node is palindrome
+        
         if (head == null || head.next == null) {
             return true;
         }
@@ -48,13 +48,13 @@ public class Palindrome_linkedlist {
         List<Integer> list = new ArrayList<>();
         ListNode current = head;
 
-        // Store values in list
+        
         while (current != null) {
             list.add(current.val);
             current = current.next;
         }
 
-        // Two-pointer check
+        
         int left = 0;
         int right = list.size() - 1;
 
