@@ -26,12 +26,9 @@ public class DetectCapital {
         if (uppercaseCount == 0) {
             return true;
         }
-
-        
         if (uppercaseCount == 1 && Character.isUpperCase(word.charAt(0))) {
             return true;
         }
-
         return false;
     }
 }
