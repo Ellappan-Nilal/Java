@@ -20,13 +20,9 @@ public class DetectCapital {
                 uppercaseCount++;
             }
         }
-
-        
         if (uppercaseCount == word.length()) {
             return true;
         }
-
-        
         if (uppercaseCount == 0) {
             return true;
         }
