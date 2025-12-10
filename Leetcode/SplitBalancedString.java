@@ -21,8 +21,6 @@ public class SplitBalancedString {
             } else {
                 balance--;
             }
-
-            // When balance becomes zero, a balanced string is found
             if (balance == 0) {
                 count++;
             }
