@@ -10,7 +10,6 @@ public class SplitBalancedString {
         System.out.println(obj.balancedStringSplit("LLLLRRRR"));   // 1
         System.out.println(obj.balancedStringSplit("RLRLRLRL"));   // 4
     }
-
     public int balancedStringSplit(String s) {
         int balance = 0;
         int count = 0;
