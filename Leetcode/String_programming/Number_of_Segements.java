@@ -15,8 +15,7 @@ public class Number_of_Segements {
             if(a[i]!=""){
                 c++;
             }
-        }
-            
+        }            
         return c;
     }
 }
