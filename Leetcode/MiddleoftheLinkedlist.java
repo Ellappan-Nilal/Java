@@ -42,6 +42,6 @@ public class MiddleoftheLinkedlist {
             fast = fast.next.next;
         }
 
-        return slow;  // Middle node
+        return slow; 
     }
 }
