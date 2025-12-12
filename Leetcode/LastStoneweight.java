@@ -16,15 +16,11 @@ public class LastStoneweight {
     }
 
     public int lastStoneWeight(int[] stones) {
-
-        // Max Heap
         PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
             public int compare(Integer a, Integer b) {
                 return b - a;   // Max-heap
             }
         });
-
-        // Add all stones to heap
         for (int stone : stones) {
             pq.add(stone);
         }
