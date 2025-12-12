@@ -25,7 +25,6 @@ public class LastStoneweight {
             pq.add(stone);
         }
 
-        // Smash stones
         while (pq.size() > 1) {
             int stone1 = pq.poll();  // heaviest
             int stone2 = pq.poll();  // second heaviest
@@ -34,8 +33,6 @@ public class LastStoneweight {
                 pq.add(stone1 - stone2);
             }
         }
-
-        // If no stones left, return 0
         if (pq.isEmpty()) {
             return 0;
         }
