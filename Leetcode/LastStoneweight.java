@@ -4,11 +4,8 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class LastStoneweight {
-
     public static void main(String[] args) {
-
         int[] stones = {2, 7, 4, 1, 8, 1};
-
         LastStoneweight obj = new LastStoneweight();
         int result = obj.lastStoneWeight(stones);
 
