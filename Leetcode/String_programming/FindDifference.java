@@ -5,10 +5,8 @@ public class FindDifference {
     public static void main(String[] args) {
 
         FindDifference obj = new FindDifference();
-
         String s = "abcd";
         String t = "abcde";
-
         char result = obj.findthediffernce(s, t);
         System.out.println("The extra character is: " + result);
     }
