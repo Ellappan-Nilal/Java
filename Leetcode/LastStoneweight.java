@@ -11,7 +11,6 @@ public class LastStoneweight {
 
         System.out.println("Last Stone Weight: " + result);
     }
-
     public int lastStoneWeight(int[] stones) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
             public int compare(Integer a, Integer b) {
