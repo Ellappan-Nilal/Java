@@ -1,10 +1,8 @@
 public class Find_No_with_Even_no_of_digits {
     public static void main(String[] args){
         Find_No_with_Even_no_of_digits obj = new Find_No_with_Even_no_of_digits();
-
         int[] nums = {12, 345, 2, 6, 7896};
         int result = obj.findNo(nums);
-
         System.out.println("Count of numbers with even number of digits: " + result);
     }
     public int findNo(int[] nums){
