@@ -2,14 +2,11 @@ public class ThreeConsecutiveOdds {
 
     public static void main(String[] args) {
         ThreeConsecutiveOdds obj = new ThreeConsecutiveOdds();
-
         
         int[] arr = {2, 6, 4, 1, 3, 5};
-
         
         boolean result = obj.ConsecutiveOdds(arr);
-
-       
+     
         System.out.println("Contains three consecutive odds: " + result);
     }
 
