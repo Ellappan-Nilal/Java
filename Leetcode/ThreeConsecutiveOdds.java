@@ -14,7 +14,8 @@ public class ThreeConsecutiveOdds {
             if(count==3){
                 return true;
             }
-            return true;
+           
         }
+         return false;
     }
 }
