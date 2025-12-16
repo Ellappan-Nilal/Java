@@ -11,5 +11,21 @@ public class SortArraybyIncreasingFrequency {
                 map.put(nums[i],1);
             }
         }
+        List<Integer> list=new ArrayList<Integer>(map.keySet());
+        Collection.sort(list, (a,b)->{
+            if(map.get(a)==map.get(b)){
+                return b-a;
+            }
+            else{
+                return map.get(a)-map.get(b);
+            }
+        });
+        int result[]=new int[nums.length];
+        int index=0;
+        for(int num:list){
+            for(int i=0;i<map.get(num);i++){
+                result[index] =num;
+            }
+        }
     }
 }
