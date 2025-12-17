@@ -28,7 +28,7 @@ public class SortArraybyIncreasingFrequency {
         List<Integer> list = new ArrayList<>(map.keySet());
         Collections.sort(list, (a, b) -> {
             if (map.get(a).equals(map.get(b))) {
-                return b - a; // decreasing value
+                return b - a; 
             } else {
                 return map.get(a) - map.get(b); // increasing frequency
             }
