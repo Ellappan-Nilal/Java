@@ -32,9 +32,7 @@ public class SortArraybyIncreasingFrequency {
             } else {
                 return map.get(a) - map.get(b);
             }
-        });
-
-        
+        });        
         int[] result = new int[nums.length];
         int index = 0;
 
