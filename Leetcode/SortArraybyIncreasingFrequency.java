@@ -30,7 +30,7 @@ public class SortArraybyIncreasingFrequency {
             if (map.get(a).equals(map.get(b))) {
                 return b - a; 
             } else {
-                return map.get(a) - map.get(b); // increasing frequency
+                return map.get(a) - map.get(b);
             }
         });
 
