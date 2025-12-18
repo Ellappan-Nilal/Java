@@ -1,9 +1,17 @@
 package String_programming;
 
 public class MergeStringsAlternately {
-    public static void main(String[] args){
 
+    public static void main(String[] args) {
+        MergeStringsAlternately obj = new MergeStringsAlternately();
+
+        String word1 = "abc";
+        String word2 = "pqr";
+
+        String result = obj.mergeAlternately(word1, word2);
+        System.out.println(result); // Expected output: apbqcr
     }
+
     public String mergeAlternately(String word1, String word2) {
         StringBuilder merged = new StringBuilder();
         int len1 = word1.length();
