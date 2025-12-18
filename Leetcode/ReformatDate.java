@@ -30,15 +30,12 @@ public class ReformatDate {
         map.put("Oct", "10");
         map.put("Nov", "11");
         map.put("Dec", "12");
-
-        
+       
         String[] words = date.split(" ");
-
-        
+       
         String month = words[1];
         result += map.get(month) + "-";
-
-        
+       
         String day_th = words[0];
         String day = "";
 
