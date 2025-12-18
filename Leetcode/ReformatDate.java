@@ -13,11 +13,9 @@ public class ReformatDate {
     }
 
     public String reformatDate(String date) {
-
-       
+               
         String year = date.substring(date.length() - 4);
         String result = year + "-";
-
        
         Map<String, String> map = new HashMap<>();
         map.put("Jan", "01");
