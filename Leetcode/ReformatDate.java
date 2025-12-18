@@ -11,7 +11,7 @@ public class ReformatDate {
 
         System.out.println(output); 
     }
-
+    
     public String reformatDate(String date) {
                
         String year = date.substring(date.length() - 4);
