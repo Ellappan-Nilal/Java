@@ -7,7 +7,7 @@ public class ChecktheSentenceisPangram {
             set.add(sentence.charAt(i));
         }
         if(set.size()==26){
-            System.out.println("true"); 
+            return true;    
         }
         return false;
     }
