@@ -8,7 +8,7 @@ public class SortSentence {
         String s = "is2 sentence4 This1 a3";
         String result = obj.sortSentence(s);
 
-        System.out.println(result); // Output: This is a sentence
+        System.out.println(result); 
     }
 
     public String sortSentence(String s) {
