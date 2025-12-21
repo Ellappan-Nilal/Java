@@ -1,5 +1,5 @@
 package Interview_questions;
-
+import java.util.Scanner;
 public class SimpleInterest {
     public static void main(String[] args){
         double p=1000;
