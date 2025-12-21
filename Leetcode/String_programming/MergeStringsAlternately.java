@@ -29,6 +29,10 @@ public class MergeStringsAlternately {
             merged.append(word2.substring(minLen));
         }
 
+
+
+
+        
         return merged.toString();
     }
 }
