@@ -3,8 +3,6 @@ package solve_problems.Leetcode.String_programming;
 
 public class Lowercase_string {
     
-
-    
     public String toLowerCase(String s) {
         return s.toLowerCase();
     }
