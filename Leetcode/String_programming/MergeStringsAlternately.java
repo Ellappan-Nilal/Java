@@ -28,11 +28,7 @@ public class MergeStringsAlternately {
         } else if (len2 > len1) {
             merged.append(word2.substring(minLen));
         }
-
-
-
-
-        
+      
         return merged.toString();
     }
 }
