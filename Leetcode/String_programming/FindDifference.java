@@ -10,7 +10,6 @@ public class FindDifference {
         char result = obj.findthediffernce(s, t);
         System.out.println("The extra character is: " + result);
     }
-
     public char findthediffernce(String s, String t) {
         int s_sum = 0;
         int t_sum = 0;
