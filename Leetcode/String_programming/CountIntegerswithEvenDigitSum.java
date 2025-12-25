@@ -9,7 +9,6 @@ public class CountIntegerswithEvenDigitSum {
 
         System.out.println("Count of integers with even digit sum between " + low + " and " + high + ": " + result);
     }
-
     public static int countEven(int low, int high) {
         int count = 0;
 
