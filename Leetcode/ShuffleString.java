@@ -2,14 +2,11 @@ public class ShuffleString {
 
     public static void main(String[] args) {
         ShuffleString obj = new ShuffleString();
-
         
         String s = "codeleet";
         int[] indices = {4, 5, 6, 7, 0, 1, 2, 3};
 
-       
         String result = obj.shuffle(s, indices);
-
         
         System.out.println("Shuffled String: " + result);
     }
