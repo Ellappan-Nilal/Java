@@ -30,7 +30,6 @@ public class ShuffleString {
         for (char c : chars) {
             result.append(c);
         }
-
         return result.toString();
     }
 }
