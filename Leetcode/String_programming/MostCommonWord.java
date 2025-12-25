@@ -28,9 +28,7 @@ public class MostCommonWord {
             if (!bannedSet.contains(w)) {
                 freq.put(w, freq.getOrDefault(w, 0) + 1);
             }
-        }
-
-        // Find most frequent non-banned word
+        }        // Find most frequent non-banned word
         String result = "";
         int max = 0;
         for (Map.Entry<String, Integer> entry : freq.entrySet()) {
