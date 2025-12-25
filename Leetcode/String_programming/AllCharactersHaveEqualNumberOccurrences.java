@@ -11,7 +11,6 @@ public class AllCharactersHaveEqualNumberOccurrences {
 
         System.out.println("All characters have equal occurrences: " + result);
     }
-
     public boolean areOccurrencesEqual(String s) {
         int[] count = new int[26];
 
