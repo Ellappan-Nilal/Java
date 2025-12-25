@@ -20,7 +20,6 @@ public class CountIntegerswithEvenDigitSum {
 
         return count;
     }
-
     private static boolean isDigitSumEven(int num) {
         int sum = 0;
 
