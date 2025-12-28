@@ -7,7 +7,6 @@ public class CheckifaStringisanAcronymofWords {
         boolean result = isAcronym(words, s);
         System.out.println("Is the string an acronym? " + result);
     }
-
     public static boolean isAcronym(String[] words, String s) {
         StringBuilder acronym = new StringBuilder();
         for (String word : words) {
