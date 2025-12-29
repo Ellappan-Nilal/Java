@@ -4,6 +4,10 @@ public class AccountBalanceAfterRoundedPurchase {
         int finalBalance = accountBalanceAfterRoundedPurchase(purchaseAmount);
         System.out.println("Final account balance: " + finalBalance);
     }
+
+
+
+    
     public static int accountBalanceAfterRoundedPurchase(int purchaseAmount) {
         int roundedPurchase = ((purchaseAmount + 5) / 10) * 10;
         return 100 - roundedPurchase;
