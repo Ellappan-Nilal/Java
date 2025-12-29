@@ -23,7 +23,6 @@ public class Valid_parentheses {
         }
         return stack.isEmpty();
     }
-
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter a string Containing parentheses :");
