@@ -16,7 +16,6 @@ public static class TreeNode {
         this.right = right;
     }
 }
-
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
