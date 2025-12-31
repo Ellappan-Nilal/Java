@@ -1,6 +1,6 @@
 public class AccountBalanceAfterRoundedPurchase {
     public static void main(String[] args) {
-        int purchaseAmount = 23; // Example purchase amount
+        int purchaseAmount = 23; 
         int finalBalance = accountBalanceAfterRoundedPurchase(purchaseAmount);
         System.out.println("Final account balance: " + finalBalance);
     }
