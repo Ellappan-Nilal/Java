@@ -17,9 +17,6 @@ public class MinimumCommonValue {
                 pointer2++;
             }
         }
-
-
-        
         return -1;
     }
 }
