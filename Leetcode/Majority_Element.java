@@ -25,9 +25,7 @@ public class Majority_Element {
                 map.put(nums[i], 1);
             }
         }
-
         int majority = nums.length / 2;
-
 
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (entry.getValue() > majority) {
