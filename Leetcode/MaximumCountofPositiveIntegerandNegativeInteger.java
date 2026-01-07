@@ -14,7 +14,6 @@ public class MaximumCountofPositiveIntegerandNegativeInteger {
                 negativeCount++;
             }
         }
-
         return Math.max(positiveCount, negativeCount);
     }
 }
