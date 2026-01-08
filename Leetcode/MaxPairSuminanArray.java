@@ -6,9 +6,7 @@ import java.util.Collections;
 
 public class MaxPairSuminanArray {
     public static int maxSum(int[] nums) {        
-        Map<Integer, List<Integer>> map = new HashMap<>();
-
-        
+        Map<Integer, List<Integer>> map = new HashMap<>();        
         for (int num : nums) {
             int maxDigit = getMaxDigit(num);
             map.computeIfAbsent(maxDigit, k -> new ArrayList<>()).add(num);
