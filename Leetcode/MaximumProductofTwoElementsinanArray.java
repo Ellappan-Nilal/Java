@@ -1,10 +1,8 @@
 import java.util.Arrays;
 
 public class MaximumProductofTwoElementsinanArray {
-
     public static void main(String[] args) {
         int[] nums = {3, 4, 5, 2};
-
         MaximumProductofTwoElementsinanArray obj =
                 new MaximumProductofTwoElementsinanArray();
 
