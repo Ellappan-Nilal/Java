@@ -12,9 +12,7 @@ public class MaxPairSuminanArray {
             map.computeIfAbsent(maxDigit, k -> new ArrayList<>()).add(num);
         }
 
-        int ans = -1;
-
-       
+        int ans = -1;       
         for (List<Integer> list : map.values()) {
             if (list.size() >= 2) {
                 Collections.sort(list, Collections.reverseOrder());
