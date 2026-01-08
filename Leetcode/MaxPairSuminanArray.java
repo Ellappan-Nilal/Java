@@ -37,13 +37,10 @@ public class MaxPairSuminanArray {
             num /= 10;
         }
         return max;
-    }
-
- 
+    } 
     public static void main(String[] args) {
         int[] nums = {51, 71, 17, 24, 42};
         System.out.println("Maximum Pair Sum: " + maxSum(nums));
     }
-
 
 }
