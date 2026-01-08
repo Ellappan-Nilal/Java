@@ -5,10 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class MaxPairSuminanArray {
-
-
-    public static int maxSum(int[] nums) {
-        
+    public static int maxSum(int[] nums) {        
         Map<Integer, List<Integer>> map = new HashMap<>();
 
         
