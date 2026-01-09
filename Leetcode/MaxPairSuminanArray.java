@@ -10,7 +10,6 @@ public class MaxPairSuminanArray {
             int maxDigit = getMaxDigit(num);
             map.computeIfAbsent(maxDigit, k -> new ArrayList<>()).add(num);
         }
-
         int ans = -1;       
         for (List<Integer> list : map.values()) {
             if (list.size() >= 2) {
@@ -18,7 +17,6 @@ public class MaxPairSuminanArray {
                 ans = Math.max(ans, list.get(0) + list.get(1));
             }
         }
-
         return ans;
     }
 
