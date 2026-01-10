@@ -9,7 +9,6 @@ public class Majority_Element {
         int result = obj.majorityElement(nums);
         System.out.println("Majority Element: " + result);
     }
-
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();       
         for (int i = 0; i < nums.length; i++) {
