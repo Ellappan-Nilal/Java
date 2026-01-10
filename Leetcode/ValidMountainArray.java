@@ -4,7 +4,8 @@ public class ValidMountainArray {
         ValidMountainArray obj=new ValidMountainArray();
         int[] arr={0,3,2,1};
         boolean result=obj.validMountainArray(arr);
-        System.out.println("Is valid mountain array: "+result);      
+        System.out.println("Is valid mountain array: "+result);  
+
 
     }
     public boolean validMountainArray(int[] arr){
