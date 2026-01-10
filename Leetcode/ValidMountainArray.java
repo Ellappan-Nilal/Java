@@ -1,6 +1,5 @@
 
 package solve_problems.Leetcode;
-
 public class ValidMountainArray {
     public static void main(String[] args){
         
