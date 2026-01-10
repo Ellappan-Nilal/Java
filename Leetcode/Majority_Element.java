@@ -1,16 +1,12 @@
 package solve_problems.Leetcode;
-
 import java.util.HashMap;
 import java.util.Map;
-
 public class Majority_Element {
 
     public static void main(String[] args) {
         int[] nums = {2, 2, 1, 1, 1, 2, 2};
-
         Majority_Element obj = new Majority_Element();
         int result = obj.majorityElement(nums);
-
         System.out.println("Majority Element: " + result);
     }
 
