@@ -14,9 +14,7 @@ class ListNode {
     }
 }
 public class MiddleoftheLinkedlist {
-
     public static void main(String[] args) {
-
         // Creating Linked List: 1 -> 2 -> 3 -> 4 -> 5
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
@@ -29,7 +27,6 @@ public class MiddleoftheLinkedlist {
 
         System.out.println("Middle Node Value: " + middle.val);
     }
-
     public ListNode middleNode(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
@@ -38,7 +35,6 @@ public class MiddleoftheLinkedlist {
             slow = slow.next;
             fast = fast.next.next;
         }
-
         return slow; 
     }
 }
