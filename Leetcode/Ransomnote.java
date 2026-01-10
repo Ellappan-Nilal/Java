@@ -14,7 +14,6 @@ public class Ransomnote {
         boolean result = obj.canConstruct(ransomNote, magazine);
         System.out.println("Can construct ransom note: " + result);
     }
-
     public boolean canConstruct(String ransomNote, String magazine) {
         Map<Character, Integer> map = new HashMap<>();
 
@@ -23,7 +22,6 @@ public class Ransomnote {
             char ch = magazine.charAt(i);
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-
         // Check characters in ransomNote
         for (int i = 0; i < ransomNote.length(); i++) {
             char ch = ransomNote.charAt(i);
