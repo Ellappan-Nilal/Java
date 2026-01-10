@@ -1,16 +1,12 @@
 package solve_problems.Leetcode;
 
 public class Valid_Anagram {
-
     public static void main(String[] args) {
-
         Valid_Anagram obj = new Valid_Anagram();
-
         // Example 1
         String s1 = "anagram";
         String t1 = "nagaram";
-        System.out.println(obj.isAnagram(s1, t1)); // true
-
+        System.out.println(obj.isAnagram(s1, t1)); // trues
         // Example 2
         String s2 = "rat";
         String t2 = "car";
