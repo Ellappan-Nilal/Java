@@ -1,7 +1,11 @@
 package solve_problems.Leetcode;
 public class ValidMountainArray {
     public static void main(String[] args){
-        
+        ValidMountainArray obj=new ValidMountainArray();
+        int[] arr={0,3,2,1};
+        boolean result=obj.validMountainArray(arr);
+        System.out.println("Is valid mountain array: "+result);      
+
     }
     public boolean validMountainArray(int[] arr){
         int len=arr.length;
