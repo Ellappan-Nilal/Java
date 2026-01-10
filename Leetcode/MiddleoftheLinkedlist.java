@@ -9,7 +9,7 @@ class ListNode {
     }
     ListNode(int val, ListNode next) {
         this.val = val;
-        this.next = next;s
+        this.next = next;
     }
 }
 public class MiddleoftheLinkedlist {
