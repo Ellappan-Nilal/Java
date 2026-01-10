@@ -26,9 +26,9 @@ public class Valid_parentheses {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter a string Containing parentheses :");
-         String in=sc.nextLine();
-         boolean isValid = isValid(in);
-         System.out.println(" The String "+in+" is "+(isValid ? "ture" : "false"));
-         sc.close();
+        String in=sc.nextLine();
+        boolean isValid = isValid(in);
+        System.out.println(" The String "+in+" is "+(isValid ? "ture" : "false"));
+        sc.close();
     }
 }
