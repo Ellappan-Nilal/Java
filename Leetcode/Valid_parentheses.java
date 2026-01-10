@@ -5,6 +5,8 @@ public class Valid_parentheses {
         if(s.length()%2!=0){
             return false;
         }
+
+        
         Stack<Character> stack =new Stack<>();
         for(char c:s.toCharArray()){
             if(c=='('||c=='{'||c=='['){
