@@ -1,8 +1,7 @@
 
 package solve_problems.Leetcode;
 
-public class Max_sub_array {
-   
+public class Max_sub_array {   
     public int maxSubArray(int[] nums) {
         int max_so_far=nums[0];
         int curr_max=nums[0];
@@ -11,7 +10,6 @@ public class Max_sub_array {
             max_so_far=Math.max(curr_max,max_so_far);
         }
         return max_so_far;
-
     }
 } 
 
