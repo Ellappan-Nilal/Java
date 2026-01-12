@@ -20,10 +20,8 @@ public class MiddleoftheLinkedlist {
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
-
         MiddleoftheLinkedlist obj = new MiddleoftheLinkedlist();
         ListNode middle = obj.middleNode(head);
-
         System.out.println("Middle Node Value: " + middle.val);
     }
     public ListNode middleNode(ListNode head) {
