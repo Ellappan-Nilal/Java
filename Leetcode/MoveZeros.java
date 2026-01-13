@@ -3,7 +3,6 @@ package solve_problems.Leetcode;
 import java.util.Arrays;
 
 public class MoveZeros {
-
     public static void main(String[] args) {
 
         MoveZeros obj = new MoveZeros();        
@@ -11,7 +10,6 @@ public class MoveZeros {
         obj.moveZeroes(nums);  
         System.out.println(Arrays.toString(nums)); // [1, 3, 12, 0, 0]
     }
-
     public void moveZeroes(int[] nums) {
         int index = 0;
 
