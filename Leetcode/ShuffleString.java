@@ -10,7 +10,6 @@ public class ShuffleString {
         
         System.out.println("Shuffled String: " + result);
     }
-
     public String shuffle(String s, int[] indices) {
         if (s == null || s.length() == 0) {
             return "";
@@ -25,7 +24,6 @@ public class ShuffleString {
             int pos = indices[i];
             chars[pos] = s.charAt(i);
         }
-
         StringBuilder result = new StringBuilder();
         for (char c : chars) {
             result.append(c);
