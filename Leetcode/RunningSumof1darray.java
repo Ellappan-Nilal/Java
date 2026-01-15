@@ -1,7 +1,5 @@
 import java.util.Arrays;
-
 public class RunningSumof1darray {
-
     public static void main(String[] args) {
         RunningSumof1darray obj = new RunningSumof1darray();
 
@@ -10,7 +8,6 @@ public class RunningSumof1darray {
 
         System.out.println(Arrays.toString(result));
     }
-
     public int[] runningSum(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
             nums[i] = nums[i] + nums[i - 1];
