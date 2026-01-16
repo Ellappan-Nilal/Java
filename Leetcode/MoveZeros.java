@@ -1,7 +1,5 @@
 package solve_problems.Leetcode;
-
 import java.util.Arrays;
-
 public class MoveZeros {
     public static void main(String[] args) {
 
