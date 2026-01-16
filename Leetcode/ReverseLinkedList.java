@@ -1,10 +1,7 @@
 package solve_problems.Leetcode;
-
-
 class ListNode {
     int val;
     ListNode next;
-
     ListNode() {}
     ListNode(int val) { this.val = val; }
     ListNode(int val, ListNode next) {
