@@ -9,7 +9,6 @@ class ListNode {
         this.next = next;
     }
 }
-
 public class ReverseLinkedList {
 
     public static void main(String[] args) {
