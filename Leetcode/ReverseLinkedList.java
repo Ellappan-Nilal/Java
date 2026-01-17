@@ -40,9 +40,7 @@ public class ReverseLinkedList {
         }
 
         return prev; 
-    }
-
-    
+    }    
     public static void printList(ListNode head) {
         ListNode temp = head;
         while (temp != null) {
