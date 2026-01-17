@@ -27,7 +27,6 @@ public class ReverseLinkedList {
         System.out.print("Reversed List: ");
         printList(reversed);
     }
-
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
