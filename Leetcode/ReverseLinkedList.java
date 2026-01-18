@@ -17,10 +17,8 @@ public class ReverseLinkedList {
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
-
         ReverseLinkedList obj = new ReverseLinkedList();
         ListNode reversed = obj.reverseList(head);
-
    
         System.out.print("Reversed List: ");
         printList(reversed);
