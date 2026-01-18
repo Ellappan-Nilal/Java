@@ -21,8 +21,7 @@ public class ReverseLinkedList {
         ListNode reversed = obj.reverseList(head);
    
         System.out.print("Reversed List: ");
-        printList(reversed);
-    }
+        printList(reversed);    }
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
@@ -33,7 +32,6 @@ public class ReverseLinkedList {
             prev = current;                   
             current = nextNode;              
         }
-
         return prev; 
     }    
     public static void printList(ListNode head) {
