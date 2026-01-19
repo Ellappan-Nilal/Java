@@ -1,7 +1,6 @@
 package solve_problems.Leetcode;
 import java.util.Arrays;
-public class Rotate_array {
-    
+public class Rotate_array {    
     public static void main(String[] args){
        int nums[]={1,2,3}; 
        int k=3;
