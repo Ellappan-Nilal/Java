@@ -7,7 +7,6 @@ public class Rotate_array {
        System.out.println(Arrays.toString(rotate(nums,k)));
     }
     public static int[] rotate(int nums[],int k){
-        
         int n=nums.length;
         k=k%n;
         reverse(nums,0,n-1);
