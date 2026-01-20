@@ -7,6 +7,7 @@ public class ReverseString {
         solution.reverseString(s);
         System.out.println(Arrays.toString(s));      // Output: [o, l, l, e, h]
     }
+    
   public void reverseString(char[] s) {
         int start = 0;
         int end = s.length - 1;
