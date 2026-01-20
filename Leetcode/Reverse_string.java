@@ -12,6 +12,12 @@ public class Reverse_string {
         }
 
     }
+    public static void main(String[] args) {
+        Reverse_string obj=new Reverse_string();
+        char[] s={'h','e','l','l','o'};
+        obj.reverseString(s);
+        System.out.println(s);
+    }
 }
 
 
