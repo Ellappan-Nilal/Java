@@ -19,6 +19,3 @@ public class Reverse_string {
         System.out.println(s);
     }
 }
-
-
-
