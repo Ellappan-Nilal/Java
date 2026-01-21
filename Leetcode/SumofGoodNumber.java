@@ -7,13 +7,10 @@ public class SumOfGoodNumber {
 
             if (i - k >= 0 && nums[i] <= nums[i - k]) {
                 isGood = false;
-            }
-
-            
+            }            
             if (i + k < nums.length && nums[i] <= nums[i + k]) {
                 isGood = false;
             }
-
             if (isGood) {
                 sum += nums[i];
             }
