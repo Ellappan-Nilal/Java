@@ -11,6 +11,8 @@ public class Minimum {
             arr[i] = scanner.nextInt();
         }
 
+
+        
         int least = arr[0]; 
 
         for (int i = 1; i < n; i++) {
