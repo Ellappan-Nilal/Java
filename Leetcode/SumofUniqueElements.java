@@ -1,6 +1,5 @@
 import java.util.HashMap;
 import java.util.Map;
-
 public class SumofUniqueElements {
 
     public static void main(String[] args) {
@@ -11,7 +10,6 @@ public class SumofUniqueElements {
 
         System.out.println("Sum of unique elements: " + result);
     }
-
     public int sumOfUnique(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
 
