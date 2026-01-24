@@ -1,10 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
 public class SumofUniqueElements {
-
     public static void main(String[] args) {
         SumofUniqueElements obj = new SumofUniqueElements();
-
         int[] nums = {1, 2, 3, 2};
         int result = obj.sumOfUnique(nums);
 
