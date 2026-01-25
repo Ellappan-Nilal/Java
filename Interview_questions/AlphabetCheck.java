@@ -1,6 +1,4 @@
-
 package solve_problems.Interview_questions;
-
 import java.util.Scanner;
 
 public class AlphabetCheck {
