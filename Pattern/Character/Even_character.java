@@ -1,5 +1,4 @@
 package solve_problems.Pattern.Character;
-
 import java.util.Scanner;
 
 /*  B 
