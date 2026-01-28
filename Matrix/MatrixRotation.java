@@ -2,9 +2,7 @@
 matrix b by rotating it 90deg , 180deg , 270deg if so print TRUE else print FALSE*/
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class MatrixRotation {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
