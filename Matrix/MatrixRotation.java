@@ -17,8 +17,6 @@ public class MatrixRotation {
                 a[i][j] = Integer.parseInt(input1[k++]);
             }
         }
-
-
         String[] input2 = sc.nextLine().split(" ");
         int[][] b = new int[n][n];
         k = 0;
