@@ -23,8 +23,6 @@ public class MatrixRotation {
                 b[i][j] = Integer.parseInt(input2[k++]);
             }
         }
-
-
         if (areEqual(a, b) || areEqual(rotate90(a), b) || areEqual(rotate180(a), b) || areEqual(rotate270(a), b)) {
             System.out.println("TRUE");
         } else {
