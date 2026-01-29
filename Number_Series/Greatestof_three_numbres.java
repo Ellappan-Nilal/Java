@@ -1,7 +1,5 @@
 package solve_problems.Number_Series;
-
 import java.util.Scanner;
-
 public class Greatestof_three_numbres {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
