@@ -10,7 +10,3 @@ public class Five_alphabet {
         }
     }
 }
-
-
-
-
