@@ -15,6 +15,3 @@ public class String_palindrome {
         }
     }
 }
-
-
-
