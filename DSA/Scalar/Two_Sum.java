@@ -7,7 +7,6 @@ public class Two_Sum {
         int target = 17;
         int[] re = new int[2];
         HashMap<Integer, Integer> map = new HashMap<>();
-
         for(int i = 0; i < arr.length; i++){
             int sno = target - arr[i];
             if(map.containsKey(sno)){
@@ -17,7 +16,6 @@ public class Two_Sum {
             }
             map.put(arr[i], i);
         }
-
         System.out.println("Indices: " + re[0] + ", " + re[1]);
         System.out.println("Values: " + arr[re[0]] + ", " + arr[re[1]]);
     }
