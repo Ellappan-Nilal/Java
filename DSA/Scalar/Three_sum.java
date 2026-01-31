@@ -1,5 +1,4 @@
 package solve_problems.DSA.Scalar;
-
 import java.util.Arrays;
 public class Three_sum {
     public static void main(String[] args){
@@ -17,8 +16,7 @@ public class Three_sum {
                     if(a[j]+a[k]==tar){
                         System.out.print(a[i]+" "+a[j]+" "+a[k]);
                         while(j<k && a[j]==a[j+1])j++;
-                        while(j<k && a[j]==a[k-1])k--;
-                            
+                        while(j<k && a[j]==a[k-1])k--;                            
                         j++;
                         k--;
                     }else if (a[j]+a[k]<tar){
