@@ -1,5 +1,4 @@
 package solve_problems.DSA.Scalar;
-
 import java.util.HashMap;
 public class Two_Sum {
     public static void main(String[] args){
