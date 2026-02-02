@@ -27,9 +27,7 @@ public class palindromic_substrings {
             }
         }
         return dp[n];
-    }
-
-    
+    }    
     public static void main(String[] args) {
         String s1 = "a";
         System.out.println(countWays(s1)); 
