@@ -1,11 +1,9 @@
-
 package solve_problems.Dynamic_Programming;
 // Output: 1
 // Output: 2 (["aba"], ["a","b","a"])
 // Output: 4 (["aaa"], ["a","aa"], ["aa","a"], ["a","a","a"])
 import java.util.*;
-public class palindromic_substrings {
-    
+public class palindromic_substrings {    
     static boolean isPalindrome(String s, int l, int r) {
         while (l < r) {
             if (s.charAt(l) != s.charAt(r)) {
