@@ -1,4 +1,3 @@
-
 package solve_problems.DSA.Singly_Linked_list;
 class Node{
     int data;
@@ -49,7 +48,3 @@ class BinaryTree {
         
     }
 }
-
-
-
-
