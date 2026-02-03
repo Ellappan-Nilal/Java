@@ -3,14 +3,12 @@ package solve_problems.DSA.Singly_Linked_list;
 class Node{
     int data;
     Node left;
-    Node right;
-    
+    Node right;    
     public Node(int data){
         this.data=data;
     }
 }
-class BinaryTree {
-    
+class BinaryTree {    
     Node root;
     
     public void insert(int data){
