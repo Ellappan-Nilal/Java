@@ -1,5 +1,5 @@
+import java.util.Scanner;
 public class Sequential_order {
-
 	public static void main(String[] args) {
 		Scanner sc=new Sccaner(System.in);
 		int n=sc.nextInt();
