@@ -1,4 +1,3 @@
-
 package solve_problems.Number_Series;
 import java.util.Scanner;
 public class Absolute_Difference_Multiples {
