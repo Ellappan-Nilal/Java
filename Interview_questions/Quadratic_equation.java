@@ -21,7 +21,6 @@ public class Quadratic_equation {
         } else {
             System.out.println("The equation has no real root");
         }
-
         sc.close();
     }
 }
