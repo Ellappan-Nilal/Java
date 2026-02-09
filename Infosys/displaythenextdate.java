@@ -35,7 +35,6 @@ class displaythenextdate {
                 y++;
             }
         }
-
         System.out.println(d + "-" + m + "-" + y);
     }
 }
