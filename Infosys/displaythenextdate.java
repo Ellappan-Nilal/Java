@@ -10,7 +10,6 @@ class displaythenextdate {
         int y = sc.nextInt();
 
         int maxDays = 31;
-
         // February
         if (m == 2) {
             if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0)
@@ -22,7 +21,6 @@ class displaythenextdate {
         else if (m == 4 || m == 6 || m == 9 || m == 11) {
             maxDays = 30;
         }
-
         // Next date logic
         if (d < maxDays) {
             d++;
