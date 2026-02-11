@@ -15,5 +15,6 @@ class ZipZapZoom {
         else {
             System.out.println("Invalid");
         }
+        sc.close();
     }
 }
