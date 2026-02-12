@@ -14,7 +14,6 @@ public class Seedvaluemultiple {
             product *= (temp % 10);
             temp /= 10;
         }
-
         if (product == y) {
             System.out.println(x + " is a seed of " + y);
         } else {
