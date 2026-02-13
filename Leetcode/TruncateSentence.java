@@ -11,4 +11,11 @@ public class TruncateSentence {
         }        
         return truncated.toString();
     }
+    public static void main(String[] args) {
+        TruncateSentence ts = new TruncateSentence();
+        String s = "Hello how are you Contestant";
+        int k = 4;
+        String result = ts.truncateSentence(s, k);
+        System.out.println(result); // Output: "Hello how are you"
+    }
 }
