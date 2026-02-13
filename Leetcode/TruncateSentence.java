@@ -8,8 +8,7 @@ public class TruncateSentence {
             if (i < k - 1 && i < words.length - 1) {
                 truncated.append(" ");
             }
-        }
-        
+        }        
         return truncated.toString();
     }
 }
