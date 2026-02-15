@@ -2,11 +2,9 @@ import java.util.Scanner;
 class displaythenextdate {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int d = sc.nextInt();
         int m = sc.nextInt();
         int y = sc.nextInt();
-
         int maxDays = 31;
         // February
         if (m == 2) {
