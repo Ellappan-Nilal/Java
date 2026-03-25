@@ -29,7 +29,7 @@ public class Findday {
 
         // Output
         System.out.println("Day of the week: " + result);
-
+        System.out.println("My special day ");
         sc.close();
     }
 }
