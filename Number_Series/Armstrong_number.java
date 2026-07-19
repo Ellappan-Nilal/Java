@@ -1,4 +1,4 @@
-package solve_problems.Number_Series;
+
 import java.util.Scanner;
 public class Armstrong_number {
    public static void main(String args[]) {
