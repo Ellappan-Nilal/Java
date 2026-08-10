@@ -5,7 +5,7 @@ public class productandGSTpercentage {
         double price = 1000.00;
         double gst = 18.0;
 
-        System.out.println("Product Price = ₹" + price);
-        System.out.println("GST Percentage = " + gst + "%");
+        System.out.println("Product Price RS = " + price);
+        System.out.println("GST Percentage   = " + gst + "%");
     }
 }
