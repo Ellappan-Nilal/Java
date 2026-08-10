@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Sequential_order {
 	public static void main(String[] args) {
-		Scanner sc=new Sccaner(System.in);
+		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int term=1;
 		for(int i=1;i<=n;i++){
