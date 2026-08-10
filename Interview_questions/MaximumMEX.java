@@ -9,17 +9,13 @@ public class MaximumMEX {
         int n = sc.nextInt();
         System.out.print("Enter the elements of the array: ");
         int[] a = new int[n];
-
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
-
         ArrayList<Integer> answer = new ArrayList<>();
 
         int start = 0;
-
         while (start < n) {
-
             // Find MEX of remaining array
             boolean[] present = new boolean[n + 1];
 
