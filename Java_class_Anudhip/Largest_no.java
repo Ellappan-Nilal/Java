@@ -1,8 +1,5 @@
 package solve_problems.Java_class_Anudhip;
-
 import java.util.Scanner;
-
-
 public class Largest_no {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
